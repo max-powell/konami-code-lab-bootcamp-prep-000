@@ -11,9 +11,10 @@ const codes = [
   "a"
 ];
 
+let i = 0
+
 function onKeyDownHandler(e) {
   const key = e.key;
-  let i = 0
   if (key === codes[i]) {
     i++
     if (i === codes.length) {
